@@ -1,0 +1,19 @@
+{
+  "name": "dummy-espress-ts",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "node --import=tsx --watch ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A dummy version of express.js with basic functionality written in TypeScript and vanilla Node",
+  "dependencies": {
+    "@types/node": "^22.7.9",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.1"
+  },
+  "private": true
+}
